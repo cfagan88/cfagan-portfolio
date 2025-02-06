@@ -1,9 +1,12 @@
+import RevealOnScroll from "../RevealOnScroll";
+
 function Home() {
   return (
     <section
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      <RevealOnScroll>
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold h-21 mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text leading-right text-transparent">
           Chris Fagan
@@ -27,6 +30,7 @@ function Home() {
           </a>
         </div>
       </div>
+      </RevealOnScroll>
     </section>
   );
 }
