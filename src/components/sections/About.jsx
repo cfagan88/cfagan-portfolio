@@ -31,7 +31,7 @@ function About() {
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1  hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
             <p className="text-gray-300 mb-6">
               My name is Chris; I'm a full-stack developer based in
-              Hertfordshire, UK. I enjoy creating clean, efficient
+              Hertfordshire, UK who enjoys creating clean, efficient
               web-applications. My goal is to build solutions that offer both
               high performance as well as a great user experience.
             </p>
