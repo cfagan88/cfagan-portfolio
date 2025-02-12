@@ -22,7 +22,7 @@ function Projects() {
                 and comments, as well as appropriate error handling and a full,
                 dynamic testing suite.
               </p>
-              <div>
+              <div className="flex flex-wrap gap-2">
                 {["JavaScript", "Node.js", "PSQL", "Jest", "Supabase"].map(
                   (skill, key) => (
                     <span
@@ -54,8 +54,8 @@ function Projects() {
                 backend, enabling filtering of results, voting and commenting on
                 articles.
               </p>
-              <div>
-                {["React", "Vite", "HTML", "CSS"].map((skill, key) => (
+              <div className="flex flex-wrap gap-2">
+                {["React", "Vite", "HTML", "CSS", "API"].map((skill, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -84,7 +84,7 @@ function Projects() {
                 real-time updates and user authentication. Built as a group
                 project (team of 4).
               </p>
-              <div>
+              <div className="flex flex-wrap gap-2">
                 {["React", "TypeScript", "Supabase", "Tailwind"].map(
                   (skill, key) => (
                     <span
@@ -114,7 +114,7 @@ function Projects() {
                 public API. Includes ability to save searched films within your
                 "favourites" list
               </p>
-              <div>
+              <div className="flex flex-wrap gap-2">
                 {["React", "Vite", "HTML", "CSS", "API"].map((skill, key) => (
                   <span
                     key={key}
