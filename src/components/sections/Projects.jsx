@@ -13,7 +13,7 @@ function Projects() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+            <div className="p-8 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all relative">
               <h3 className="text-xl font-semibold mb-2">
                 Northcoders News Backend
               </h3>
@@ -22,7 +22,7 @@ function Projects() {
                 and comments, as well as appropriate error handling and a full,
                 dynamic testing suite.
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {["JavaScript", "Node.js", "PSQL", "Jest", "Supabase"].map(
                   (skill, key) => (
                     <span
@@ -34,10 +34,10 @@ function Projects() {
                   )
                 )}
 
-                <div className="flex justify-end">
+                <div className="absolute right-3 bottom-3">
                   <a
                     href="https://github.com/cfagan88/nc-news"
-                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors mt-4"
+                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors"
                   >
                     View project on GitHub
                   </a>
@@ -45,7 +45,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all relative">
               <h3 className="text-xl font-semibold mb-2">
                 Northcoders News Frontend
               </h3>
@@ -54,7 +54,7 @@ function Projects() {
                 backend, enabling filtering of results, voting and commenting on
                 articles.
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {["React", "Vite", "HTML", "CSS", "API"].map((skill, key) => (
                   <span
                     key={key}
@@ -64,10 +64,10 @@ function Projects() {
                   </span>
                 ))}
 
-                <div className="flex justify-end">
+                <div className="absolute right-3 bottom-3">
                   <a
                     href="https://cf-nc-news.netlify.app/"
-                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors mt-4"
+                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors"
                   >
                     View hosted site
                   </a>
@@ -75,7 +75,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all relative">
               <h3 className="text-xl font-semibold mb-2">
                 TailGotchi Full Stack App
               </h3>
@@ -84,7 +84,7 @@ function Projects() {
                 real-time updates and user authentication. Built as a group
                 project (team of 4).
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {["React", "TypeScript", "Supabase", "Tailwind"].map(
                   (skill, key) => (
                     <span
@@ -96,10 +96,10 @@ function Projects() {
                   )
                 )}
 
-                <div className="flex justify-end">
+                <div className="absolute right-3 bottom-3">
                   <a
                     href="https://tailgotchi.netlify.app/"
-                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors mt-4"
+                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors"
                   >
                     View hosted site
                   </a>
@@ -107,14 +107,14 @@ function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all relative">
               <h3 className="text-xl font-semibold mb-2">Movie Database</h3>
               <p className="text-gray-400 mb-4 font-extralight">
                 Movie database search app, fetching and displaying data from a
                 public API. Includes ability to save searched films within your
                 "favourites" list
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {["React", "Vite", "HTML", "CSS", "API"].map((skill, key) => (
                   <span
                     key={key}
@@ -124,10 +124,10 @@ function Projects() {
                   </span>
                 ))}
 
-                <div className="flex justify-end">
+                <div className="absolute right-3 bottom-3">
                   <a
                     href="https://github.com/cfagan88/React-Movie-DB"
-                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors mt-4"
+                    className="text-gray-300 hover:text-blue-300 hover:underline transition-colors"
                   >
                     View project on GitHub
                   </a>
